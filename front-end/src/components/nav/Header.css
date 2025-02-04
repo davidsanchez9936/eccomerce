@@ -1,0 +1,29 @@
+
+/* .nav-bar-container .nav-bar-container-home{
+  position:relative;
+  right:64vw
+} */
+/* .nav-bar-container {
+
+
+  max-width: 100vw;
+  max-height: 10vh;
+} */
+/* 
+.search-container {
+  display: inline-flex;
+  align-items: center;
+}
+
+.search-container form {
+  display: flex;
+  align-items: center;
+}
+
+.search-input-container {
+  display: flex;
+  align-items: center;
+}*/
+input:focus {
+  outline: none;
+} 
