@@ -26,6 +26,7 @@ app.use(
       origin: (origin, callback) => {
         const ACCEPTED_ORIGINS = [
           `http://localhost:5175`,
+          `https://front-end-production-1a2d.up.railway.app`
         ];
         if (ACCEPTED_ORIGINS.includes(origin)) {
           return callback(null, true);
