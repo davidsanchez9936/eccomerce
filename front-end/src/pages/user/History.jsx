@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import { CheckCircleOutlined, CloseCircleOutlined } from "@ant-design/icons";
 import { toast } from "react-toastify";
 import { ShowPaymentInfo } from "../../components/cards/ShowPaymentInfo.jsx";
-import {
+/* import {
   Document,
   Page,
   Text,
@@ -13,8 +13,8 @@ import {
   StyleSheet,
   PDFDownloadLink,
   PDFViewer,
-} from "@react-pdf/renderer";
-import { Invoice } from "../../components/order/Invoice.jsx";
+} from "@react-pdf/renderer"; */
+/* import { Invoice } from "../../components/order/Invoice.jsx"; */
 
 export function History() {
   const [orders, setOrders] = useState([]);
@@ -71,7 +71,7 @@ export function History() {
     );
   };
 
-  const showDownloadLink = (order) => {
+  /* const showDownloadLink = (order) => {
     return (
       <PDFDownloadLink
         document={<Invoice order={order} />}
@@ -81,7 +81,7 @@ export function History() {
         Download PDF
       </PDFDownloadLink>
     );
-  };
+  }; */
   /* <Document>
             <Page size="A4">
               <View>
@@ -98,7 +98,7 @@ export function History() {
         {console.log(order)}
         {showOrderInTable(order)}
         <div className="row">
-          <div className="col">{showDownloadLink(order)}</div>
+  {/*         <div className="col">{showDownloadLink(order)}</div> */}
         </div>
       </div>
     ));
